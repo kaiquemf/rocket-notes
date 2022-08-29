@@ -1,9 +1,10 @@
-import { fontConfig } from './style';
+import { Container } from './style';
 
-export function Details(){
-  return(
-    <fontConfig>
+export function Details() {
+
+  return (
+    <Container>
     <h1>Hello World!👋</h1>
-    </fontConfig>
+    </Container>
 )
 }
