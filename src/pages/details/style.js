@@ -11,7 +11,7 @@ export const Container = styled.div`
   "content";
   > main {
     grid-area: content;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding: 6.4rem 0;
   }
 `
