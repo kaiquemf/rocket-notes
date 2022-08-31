@@ -14,7 +14,7 @@ export function Details() {
 
   <main>
     <Content>
-    <ButtonText title="Delete note"></ButtonText>
+    <ButtonText title="Delete note" isActive></ButtonText>
 
     <TextSection title="Introdução ao React">
       <p>
