@@ -40,11 +40,10 @@ export const Menu = styled.ul`
 `
 export const Search = styled.div`
   grid-area: search;
-  background: lightyellow;
+  padding: 6.4rem 6.4rem 0;
 `
 export const Content = styled.div`
   grid-area: content;
-  background: lightgreen;
 `
 export const NewNote = styled.button`
   display: flex;
