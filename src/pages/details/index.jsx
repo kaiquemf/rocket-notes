@@ -1,14 +1,17 @@
+import { Tag } from '../../components/Tags';
 import { Container, Links } from './style';
 import { Button } from '../../components/Button'
 import { Header } from '../../components/Header';
 import { Section } from '../../components/Section';
-import { Tag } from '../../components/Tags';
+import { ButtonText } from '../../components/ButtonText';
 
 export function Details() {
 
   return (
     <Container>
     <Header/>
+    <ButtonText title="delete note">
+    </ButtonText>
     <Section title="Links">
     <Links>
       <li><a href="@">https://rocketseat.com.br</a></li>
