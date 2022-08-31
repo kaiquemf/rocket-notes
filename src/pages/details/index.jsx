@@ -2,6 +2,7 @@ import { Container, Links } from './style';
 import { Button } from '../../components/Button'
 import { Header } from '../../components/Header';
 import { Section } from '../../components/Section';
+import { Tag } from '../../components/Tags';
 
 export function Details() {
 
@@ -16,7 +17,10 @@ export function Details() {
     {/* Title passed in a  property but children capture everything is inside of Section*/}
     </Section>
     <Section title="Markers">
-    
+    <Tag title="express">
+    </Tag>
+    <Tag title="nodejs">
+    </Tag>
     </Section>
     <Button title="Return" ></Button>
     </Container>
