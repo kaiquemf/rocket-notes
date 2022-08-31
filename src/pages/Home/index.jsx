@@ -1,6 +1,6 @@
 import { Container, Brand, Menu, Search, Content, NewNote } from './style';
 import { Header } from '../../components/Header';
-import { AiOutlinePlus } from 'react-icons/ai';
+import { FiPlus } from 'react-icons/fi';
 import { ButtonText } from '../../components/ButtonText';
 
 export function Home(){
@@ -23,7 +23,7 @@ export function Home(){
 
       </Content>
       <NewNote>
-      <AiOutlinePlus />
+      <FiPlus />
       <p>Create Note</p>
       </NewNote>
     </Container>
