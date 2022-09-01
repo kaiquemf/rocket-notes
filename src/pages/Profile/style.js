@@ -26,6 +26,7 @@ export const Form = styled.form`
   >div:nth-child(4){
     margin-top: 2.4rem;
   }
+  
 `;
 export const Avatar = styled.div`
   position: relative;
