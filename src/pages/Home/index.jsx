@@ -26,7 +26,17 @@ export function Home(){
      <Note data={{title:"React Modal",
        tags:[
        {id: "1", name:"React Modal"},
-       {id: "2", name:"React Modal2"}]}}>              
+       {id: "2", name:"Front-End"}]}}>              
+     </Note>
+     <Note data={{title:"NodeJS",
+       tags:[
+       {id: "3", name:"Node"},
+       {id: "4", name:"Back-End"}]}}>              
+     </Note>
+     <Note data={{title:"CSS-in-JS",
+       tags:[
+       {id: "5", name:"JavaScript"},
+       {id: "2", name:"Front-End"}]}}>              
      </Note>
     </Section>
    </Content>
