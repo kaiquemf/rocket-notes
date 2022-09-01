@@ -15,6 +15,7 @@ export default createGlobalStyle`
   }
   :root{
     font-size: 62.5%;
+    font-family: 'Roboto Slab', serif;
     -webkit-font-smoothing: antialiased;
   }
 
