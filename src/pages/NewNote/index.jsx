@@ -1,8 +1,12 @@
 import { Container, Form } from './style';
-import { Header } from "../../components/Header"
-import { ButtonText } from "../../components/ButtonText"
-import { Input } from "../../components/Input"
-import { TextArea } from "../../components/TextArea"
+
+import { ButtonText } from "../../components/ButtonText";
+import { TextArea } from "../../components/TextArea";
+import { NoteItem } from "../../components/NoteItem";
+import { Section } from "../../components/Section";
+import { Button } from "../../components/Button";
+import { Header } from "../../components/Header";
+import { Input } from "../../components/Input";
 
 export function NewNote(){
   return(
@@ -18,6 +22,20 @@ export function NewNote(){
 
       <Input placeholder="Title"/>
       <TextArea placeholder="Write your notes..."/>
+
+      <Section title="Links">
+        <NoteItem value="https://rocketseat.com.br"/>
+        <NoteItem isNew placeholder="New link"/>
+      </Section>
+
+      <Section title="Markers">
+        <div className="tags">
+          <NoteItem value="react"/>
+          <NoteItem isNew placeholder="New tag"/>
+        </div>
+      </Section>
+
+      <Button title="Save"/>
      </Form>
     </main>
    </Container>

@@ -7,11 +7,14 @@ export default createGlobalStyle`
     box-sizing: border-box;
     ::-webkit-scrollbar {
     display: none;
+    font-family: 'Roboto Slab', serif;
+  }
+  *:focus{
+    outline: none;
   }
   }
   :root{
     font-size: 62.5%;
-    font-family: 'Roboto Slab', serif;
     -webkit-font-smoothing: antialiased;
   }
 

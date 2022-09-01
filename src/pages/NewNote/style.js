@@ -1,18 +1,32 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  *{
+    font-family: 'Roboto Slab', serif;
+  }
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   display: grid;
   grid-template-rows: 10.5rem auto;
   grid-template-areas:
   "header"
   "content";
+
+  > main{
+    grid-area: content;
+    overflow-y: auto;
+  }
+
+  .tags{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 `
 export const Form = styled.form`
   max-width: 55rem;
-  margin: 3.8rem auto;
+  margin: 2.5rem auto;
 
   > header{
     display: flex;

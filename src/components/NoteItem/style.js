@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  *{
+    font-family: 'Roboto Slab', serif;
+  }
   display: flex;
   align-items: center;
 
   background: ${({theme, isNew}) => isNew ? "transparent" : theme.COLORS.BACKGROUND_900};
   color: ${({theme}) => theme.COLORS.GRAY_300};
-  border: ${({theme, isNew}) => isNew ? `1px dashet ${theme.COLORS.GRAY_300}` : "none"};
+  border: ${({theme, isNew}) => isNew ? `2px dashed ${theme.COLORS.GRAY_300}` : "none"};
 
   margin-bottom: .8rem;
   border-radius: 1rem;
@@ -16,11 +19,18 @@ export const Container = styled.div`
     border: none;
     background: none;
   }
+  .button-delete{
+    color: ${({theme}) => theme.COLORS.RED};
+  }
+  .button-add{
+    color: ${({theme}) => theme.COLORS.ORANGE};
+  }
   
   > input{
-    width: 100%;
     height: 5.6rem;
-    padding: 1.2rem;
+    width: 100%;
+    padding: 3rem;
+    color: ${({theme}) => theme.COLORS.WHITE};
     background: transparent;
     border: none;
 
@@ -28,7 +38,6 @@ export const Container = styled.div`
       ${({theme}) => theme.COLORS.GRAY_300}
     }
 
-    color: ${({theme}) => theme.COLORS.WHITE};
 
   }
 `
