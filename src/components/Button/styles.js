@@ -10,8 +10,8 @@ export const Container = styled.button`
   font-family: 'Roboto Slab', serif;
   font-weight: 800;
 
-  background-color: ${({ theme}) => theme.COLORS.ORANGE};
-  color: ${({ theme}) => theme.COLORS.BACKGROUND_800};
+  background-color: ${({ theme }) => theme.COLORS.ORANGE};
+  color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
   &:disabled{
     opacity: 0.5;

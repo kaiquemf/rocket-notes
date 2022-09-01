@@ -5,6 +5,7 @@ import { Header } from '../../components/Header';
 import { TextSection } from '../../components/TextSection';
 import { Section } from '../../components/Section';
 import { ButtonText } from '../../components/ButtonText';
+import { Link } from 'react-router-dom';
 
 export function Details() {
 
@@ -41,7 +42,7 @@ export function Details() {
     <Tag title="nodejs"></Tag>
     </Section>
 
-    <Button title="Return" ></Button>
+    <Link to="/"><Button title="Return" isActive></Button></Link>
 
     </Content>
   </main>

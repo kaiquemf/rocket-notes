@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.header`
   grid-area: header;
@@ -13,7 +14,7 @@ export const Container = styled.header`
   padding: 0 8rem;
 `
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
   // '>' to tell react that you only want to modify the image of the profile

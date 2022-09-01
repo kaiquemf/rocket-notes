@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   width: 100%;
@@ -47,14 +48,13 @@ export const Content = styled.div`
   padding: 0 6.4rem;
   overflow-y: auto;
 `
-export const NewNote = styled.button`
+export const NewNote = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
 
   grid-area: newnote;
-  border: none;
 
   font-family: 'Roboto Slab', serif;
   font-size: 1.6rem;
