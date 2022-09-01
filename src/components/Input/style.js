@@ -11,6 +11,10 @@ export const Container = styled.div`
   background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   color: ${({ theme }) => theme.COLORS.GRAY_300};
 
+  textarea:focus, input:focus{
+    outline: none;
+  }
+
   > input{
     height: 5.6rem;
     width: 100%;
