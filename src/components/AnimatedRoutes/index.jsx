@@ -5,7 +5,6 @@ import { Details } from '../../pages/Details';
 import { Home } from '../../pages/Home';
 import { NewNote } from '../../pages/NewNote';
 import { Profile } from '../../pages/Profile';
-
 import { AnimatePresence } from 'framer-motion';
 
 export function AnimatedRoutes() {
