@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatedRoutes } from '../components/AnimatedRoutes';
 
 import { Details } from '../pages/Details';
 import { Home } from '../pages/Home';
@@ -7,11 +8,6 @@ import { Profile } from '../pages/Profile';
 
 export function AppRoutes(){
   return (
-    <Routes>
-      <Route path='/' element={ <Home /> }/>
-      <Route path='/newnote' element={ <NewNote /> }/>
-      <Route path='/profile' element={ <Profile /> }/>
-      <Route path='/details/:id' element={ <Details /> }/>
-    </Routes>
+    <AnimatedRoutes />
   )
 }
